@@ -30,6 +30,12 @@ echo "---------------------"
 echo "Instalando Steam"
 sudo apt install steam -y
 echo "---------------------"
+echo "Instalando Driver Controle Xbox One"
+git clone https://github.com/atar-axis/xpadneo.git
+cd xpadneo
+sudo ./install.sh
+cd..
+echo "---------------------"
 echo "Instalacoes Flatpak Out of Box"
 flatpak install flathub com.obsproject.Studio
 flatpak install flathub com.spotify.Client

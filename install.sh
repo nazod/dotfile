@@ -36,6 +36,9 @@ cd xpadneo
 sudo ./install.sh
 cd..
 echo "---------------------"
+echo "Instalando Tools para VPN"
+sudo apt install network-manager-openvpn-gnome
+echo "---------------------"
 echo "Instalacoes Flatpak Out of Box"
 flatpak install flathub com.obsproject.Studio
 flatpak install flathub com.spotify.Client
